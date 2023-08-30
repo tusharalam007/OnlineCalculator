@@ -1,0 +1,79 @@
+body{
+    background: url(../images/bg_main.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 575px;
+    position: relative;
+
+}
+img{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 535px;
+}
+
+.calculator{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-30%);
+    background: rgba(0, 0, 0, 0.604);
+    padding: 80px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Acme;
+    box-shadow: 20px 20px 20px rgb(0, 255, 234);
+    text-align: center;
+
+}
+h1{
+    font-size: 40px;
+}
+.text{
+    font-size: 24px;
+}
+#firstNumber{
+    padding: 10px;
+    border-radius: 20%;
+    border: 0;
+    box-shadow: 2px 2px 2px rgb(0, 255, 234);
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+#secondNumber{
+    padding: 10px;
+    border-radius: 20%;
+    border: 0;
+    box-shadow: 2px 2px 2px rgb(0, 255, 234);
+    font-size: 16px;
+    font-weight: 700;
+
+
+}
+
+
+#result{
+    font-size: 38px;
+
+}
+
+button{
+    color: whitesmoke;
+    background: transparent;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 255, 234);
+    box-shadow: 5px 5px 5px rgb(0, 255, 234);
+    transition: .3s;
+    font-size: 20px;
+    margin-right: 4px;
+}
+button:hover{
+    background: rgb(0, 0, 0);
+}
+
+

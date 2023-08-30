@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="calculator">
+    <img src="images/f6d7ef4b5b015be7cf607e2087c0a244.png" alt="">
+    <table>
+        <h1>"Special Calculator"</h1>
+        <tr>
+          <td class="text">Enter 1st number : </td>
+          <!--Get first input-->
+          <td><input type="text" id="firstNumber"  required /></td>
+        </tr>
+        <br>
+        <br>
+        <tr>
+          <!--Get second input-->
+          <td class="text">Enter 2nd number : </td>
+          <td><input type="text" id="secondNumber" required /></td>
+        </tr>
+      </table>
+      <br/>
+      <!--Function for Addition-->
+      <button onclick="add()">Add</button>
+      <!--Function for Substraction-->
+      <button onclick="sub()">Substract</button>
+      <!--Function for Multiplication-->
+      <button onclick="mul()">Multiply</button>
+      <!--Function for Division-->
+      <button onclick="div()">Divide</button>
+      <!--Function for modulus-->
+      <button onclick="mod()">Modulus</button><br/>
+
+      <!--For showing result-->
+      <p id="result">Result</p>
+
+   </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
