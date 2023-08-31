@@ -53,3 +53,16 @@ function mod() {
     document.getElementById("result").innerHTML = x+" % "+y+" = "+mod;
 }
 
+
+gsap.from(".calculator" , {
+  x : -500,
+  duration : 1,
+  delay : 1,
+  opacity : 0,
+})
+gsap.from(".robot" , {
+  y : -500,
+  duration : 1,
+  delay : 1,
+  opacity : 0,
+})
